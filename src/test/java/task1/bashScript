@@ -1,19 +1,16 @@
-mkdir E:\FOLDER
-E:
-cd FOLDER
-dir > filename1.txt
-dir > filename2.txt
-dir > filename3.txt
-dir > filename4.txt
-dir > filename5.txt
-dir > filename6.txt
-dir > filename7.txt
 
-@echo off
-set latest=filename7.txt
-set the_directory=E:\FOLDER
+mkdir myFiles
+cd myFiles
 
-for /F %%a in (’dir /B /OD /A-D %the_directory%’)
+for i in `seq -w 1 7`
+do
+  touch file$i.txt
+  sleep 1;
+done
 
-del %the_directory%\%latest%
-pause
+for i in `seq -w 1 4`
+do
+stat -c %y file$i.txt
+[ file$i.txt -nt file$i+1.txt ] && rm file$i.txt
+  
+done
