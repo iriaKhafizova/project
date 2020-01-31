@@ -1,0 +1,19 @@
+mkdir E:\FOLDER
+E:
+cd FOLDER
+dir > filename1.txt
+dir > filename2.txt
+dir > filename3.txt
+dir > filename4.txt
+dir > filename5.txt
+dir > filename6.txt
+dir > filename7.txt
+
+@echo off
+set latest=filename7.txt
+set the_directory=E:\FOLDER
+
+for /F %%a in (’dir /B /OD /A-D %the_directory%’)
+
+del %the_directory%\%latest%
+pause
