@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38314" started-at="2020-01-31T14:34:48Z" finished-at="2020-01-31T14:35:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38314" started-at="2020-01-31T14:34:48Z" finished-at="2020-01-31T14:35:26Z">
+      <class name="testCases.Assignment3">
+        <test-method status="PASS" signature="setupConfigurations()[pri:0, instance:testCases.Assignment3@3e6fa38a]" name="setupConfigurations" is-config="true" duration-ms="13943" started-at="2020-01-31T14:34:48Z" finished-at="2020-01-31T14:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfigurations -->
+        <test-method status="PASS" signature="postMessageOnFacebook()[pri:0, instance:testCases.Assignment3@3e6fa38a]" name="postMessageOnFacebook" duration-ms="22213" started-at="2020-01-31T14:35:02Z" finished-at="2020-01-31T14:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMessageOnFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Assignment3@3e6fa38a]" name="tearDown" is-config="true" duration-ms="2128" started-at="2020-01-31T14:35:24Z" finished-at="2020-01-31T14:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Assignment3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

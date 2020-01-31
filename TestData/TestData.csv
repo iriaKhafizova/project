@@ -1,0 +1,2 @@
+S no.,Test case name ,Execution,FirstName,LastName,Sex,YearsOfExperience,Date,Profession,ProfilePicture,AutomationTools,Continents,SeleniumCommands,Button
+1,Submit form with valid details,Y,Mohit,Sharma,male,2,12\Aug\19,Automation Tester,image,SeleniumIDE,Africa,SwitchCommandSWaitCommands,press
